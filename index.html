@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kundan Mishra - Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Kundan</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-particles"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">KUNDAN</span>
+                    <span class="title-line highlight">MISHRA</span>
+                </h1>
+                <p class="hero-subtitle">Software Developer</p>
+                <p class="hero-description">
+                    Crafting digital experiences with modern web technologies
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="mailto:kundanmishra.793@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-window">
+                    <div class="window-header">
+                        <div class="window-controls">
+                            <span class="control close"></span>
+                            <span class="control minimize"></span>
+                            <span class="control maximize"></span>
+                        </div>
+                        <div class="window-title">portfolio.php</div>
+                    </div>
+                    <div class="code-content">
+                        <div class="code-line"><span class="code-tag">&lt;?php</span></div>
+                        <div class="code-line"><span class="code-keyword">class</span> <span class="code-class">Developer</span> {</div>
+                        <div class="code-line">  <span class="code-keyword">public</span> <span class="code-variable">$name</span> = <span class="code-string">'Kundan Mishra'</span>;</div>
+                        <div class="code-line">  <span class="code-keyword">public</span> <span class="code-variable">$skills</span> = [</div>
+                        <div class="code-line">    <span class="code-string">'PHP'</span>, <span class="code-string">'Laravel'</span>, <span class="code-string">'Vue.js'</span></div>
+                        <div class="code-line">  ];</div>
+                        <div class="code-line">}</div>
+                        <div class="code-line"><span class="code-tag">?&gt;</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Hello! I'm Kundan Mishra</h3>
+                    <p>
+                        A passionate Software Developer with expertise in modern web technologies. 
+                        I specialize in creating robust, scalable web applications using PHP frameworks 
+                        like Laravel and CodeIgniter, combined with modern frontend technologies.
+                    </p>
+                    <p>
+                        My journey in web development has equipped me with strong skills in both 
+                        frontend and backend development, database management, and creating seamless 
+                        user experiences that drive business growth.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h4>5+</h4>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h4>1.8+</h4>
+                            <p>Years Experience</p>
+                        </div>
+                        <!-- <div class="stat">
+                            <h4>25+</h4>
+                            <p>Happy Clients</p>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>HTML/CSS</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="60"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Vue.js</span>
+                                <span>20%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="20"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>PHP</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="60"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Laravel</span>
+                                <span>50%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="50"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>CodeIgniter</span>
+                                <span>50%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="50"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Database</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>MySQL</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="60"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>SQL Server</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="60"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-subtitle">My professional journey</p>
+            </div>
+            <div class="timeline">
+               <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Software Developer</h3>
+                        <h4>Webreinvent</h4>
+                        <span class="timeline-date">Mar 2025 – Present</span>
+                        <p>Contributing to the development of scalable web applications using Laravel and Vue.js. Currently working on a Payroll Management System with features such as attendance tracking, leave management, and employee data handling. Collaborating closely with senior developers to implement best practices and deliver robust solutions.</p>
+                        <div class="timeline-skills">
+                            <span>Laravel</span>
+                            <span>Vue.js</span>
+                            <span>MySQL</span>
+                            <span>REST API</span>
+                            <span>Authentication</span>
+                            <span>Role Management</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Software Developer</h3>
+                        <h4>JD Technical Solution</h4>
+                        <span class="timeline-date">Aug 2024 – Dec 2024</span>
+                        <p>Developed and maintained PHP applications with a focus on performance optimization and database design. Led the implementation of an autodialer system using Vicidial, including server setup, VoIP configuration, and CRM integration to streamline outbound call campaigns and improve call center efficiency.</p>
+                        <div class="timeline-skills">
+                            <span>PHP</span>
+                            <span>Laravel</span>
+                            <span>MySQL</span>
+                            <span>API Development</span>
+                            <span>Vicidial</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Software Developer</h3>
+                    <h4>CSSI</h4>
+                    <span class="timeline-date">Aug 2023 – Aug 2024</span>
+                    <p>Worked on multiple full-stack web development projects, each addressing specific business needs. Developed a Dining Seating system for optimized event coordination and an Email Editor Integrator for dynamic, template-based email creation. Also led a separate project to build a Release Note management platform to streamline version tracking and internal communication.</p>
+                    <div class="timeline-skills">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Laravel</span>
+                        <span>Sql Server</span>
+                        <span>jQuery</span>
+                        <span>REST API</span>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Portfolio</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+                <button class="filter-btn" data-filter="cms">CMS</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="ecommerce">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>E-Commerce Platform</h3>
+                                <p>Full-featured online shopping platform with admin panel</p>
+                                <div class="portfolio-tech">
+                                    <span>Laravel</span>
+                                    <span>Vue.js</span>
+                                    <span>MySQL</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="portfolio-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-sticky-note"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h3>Release Note System</h3>
+                                    <p>Internal tool for managing product updates, version notes, and deployment tracking.</p>
+                                    <div class="portfolio-tech">
+                                        <span>Laravel</span>
+                                        <span>JavaScript</span>
+                                        <span>MySQL</span>
+                                    </div>
+                                    <div class="portfolio-links">
+                                        <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                                        <a href="#" class="portfolio-link"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ADS">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-phone-volume"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h3>Auto Dialer System</h3>
+                                    <p>Integrated Vicidial for automated outbound calling, lead tracking, and reporting in a call center environment.</p>
+                                    <div class="portfolio-tech">
+                                        <span>Vicidial</span>
+                                        <span>PHP</span>
+                                        <span>MySQL</span>
+                                        <span>Linux</span>
+                                    </div>
+                                    <div class="portfolio-links">
+                                        <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                                        <a href="#" class="portfolio-link"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="DSS">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-chair"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h3>Dining Seating System</h3>
+                                    <p>Application for managing seating arrangements and guest allocations in dining/event spaces.</p>
+                                    <div class="portfolio-tech">
+                                        <span>Laravel</span>
+                                        <span>JavaScript</span>
+                                        <span>MySQL</span>
+                                    </div>
+                                    <div class="portfolio-links">
+                                        <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                                        <a href="#" class="portfolio-link"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="payrole">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                       <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h3>Attendance & Leave Management</h3>
+                            <p>Part of a payroll system to track attendance, manage leaves, and automate employee time records.</p>
+                            <div class="portfolio-tech">
+                                <span>Laravel</span>
+                                <span>Vue.js</span>
+                                <span>MySQL</span>
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="portfolio-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Selective Test Pro </h3>
+                                <p>Online learning and testing platform where admins can create and manage exam questions for selective entry tests.</p>
+                                <div class="portfolio-tech">
+                                    <span>Laravel</span>
+                                    <span>JavaScript</span>
+                                    <span>MySQL</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="https://selectivetestpro.com/add" target="_blank" class="portfolio-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="portfolio-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's discuss your project</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. Whether you have a question or just want to say hi, feel free to reach out!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>kundanmishra.793@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+917366988333</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>India</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required>
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Kundan Mishra. All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="mailto:kundanmishra.793@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
