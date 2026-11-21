@@ -123,10 +123,10 @@ export default function Portfolio() {
     {
       company: "CSSI",
       position: "Software Developer",
-      period: "Earlier Experience",
+      period: "March 2023 – April 2024",
       responsibilities: [
         "PHP development.",
-        "CodeIgniter application development.",
+        "Laravel application development.",
         "MySQL database integration.",
         "JavaScript and jQuery functionality.",
       ],
@@ -150,21 +150,21 @@ export default function Portfolio() {
     },
     {
       title: "Dining Seating Management",
-      tech: ["PHP", "CodeIgniter", "MySQL", "JavaScript"],
+      tech: ["PHP", "Laravel", "MySQL", "JavaScript"],
       description:
         "Restaurant seating management, table allocation, reservation-related functionality.",
       image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80",
     },
     {
-      title: "Stripo Email Editor Integration",
-      tech: ["PHP", "JavaScript", "API Integration"],
+      title: "SelectiveTestPro – Online Examination & Test Preparation Platform",
+      tech: ["Laravel", "JavaScript", "API Integration"],
       description:
-        "Email editor integration, email template creation, editor-related functionality.",
-      image: "https://images.unsplash.com/photo-1556742044-37c2346a44f8?auto=format&fit=crop&w=600&q=80",
+        "Comprehensive online examination platform with test preparation resources, user management, and analytics.",
+      image: "/selectiveprotest.png",
     },
     {
       title: "Release Note Management",
-      tech: ["PHP", "SQL Server", "Kendo UI", "jQuery"],
+      tech: ["Laravel", "SQL Server", "Kendo UI", "jQuery"],
       description:
         "Release note management, data management, interactive tables and UI functionality.",
       image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=600&q=80",
@@ -618,7 +618,7 @@ export default function Portfolio() {
                   {
                     icon: <PhoneIcon className="w-5 h-5" />,
                     title: "Phone",
-                    value: "+91 XXX XXX XXXX",
+                    value: "+917366988333",
                   },
                   {
                     icon: <MapPin className="w-5 h-5" />,
